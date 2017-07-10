@@ -1,0 +1,149 @@
+/* HTM Lighting Style Sheet */
+
+* {
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: 'Roboto';
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.containerRounded {
+	width: 90%;
+	height: 95%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 30px black;
+	margin: 30px auto;
+}
+
+.titleImg {
+	height: 70%;
+	margin: auto;
+}
+
+.titleName {
+	margin: auto;
+	text-align: center;
+	height: 100%;
+	padding-top: 10px;
+}
+
+.contentContainer {
+	width: 95%;
+	margin: 15px auto;	
+}
+
+.contentDivider {
+	margin: 15px auto;
+}
+
+.menuBlock {
+	margin: 15px auto;
+	padding: 15px 30px;
+	border: solid 3px #ff8200;
+	box-shadow: 3px 9px 10px #999999;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.blockHead {
+	color:#ff8200; 
+	font-weight: bold;
+}
+
+.doubleBlockLeft {
+	padding: 0px;
+}
+
+.doubleBlockRight {
+	padding: 0px;
+}
+
+.footerBlock {
+	width: 100%;
+	background-color: #ff8200;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+	padding: 30px 20px;
+	margin-top: 30px;
+}
+
+.homeLink {
+	font-size: 200%;
+  }
+
+.linkAddress:active, .linkAddress:link, .linkAddress:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+.linkAddress:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.linkTitle {
+	color:white; 
+	font-weight: 900; 
+	text-shadow:1px 2px 1px black;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+	[class*="col-"] {
+		float: left;
+		padding: 15px;
+	}
+
+	/* For tablets: */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {  
+
+	[class*="col-"] {
+		float: left;
+		padding: 15px;
+	}
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	
+	.doubleBlockLeft {
+		padding-left: 0px;
+	}
+	
+	.doubleBlockRight {
+		padding-right: 0px;
+	}
+	
+}
