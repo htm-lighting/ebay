@@ -1,255 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="HTM Lighting Solutions is a Global Manufacturer of Premium & Dependable Cutting Edge LED Lighting Products for Residential, Commercial, and Industrial Use. Since 2008, we have focused on being a customer-centric company that positions itself as a value added and trusted partner in innovative lighting design systems and technology. HTM Lighting Solutions provide Customer Support 24/7 As we understand how valuable time is to our customers.">
-      <meta name="author" content="Adrian R Townsend">
-      <meta name="keywords" content="htm, lighting, htm-lighting, solutions, htmlgihtingsolutions, gooseneck, curvedarm, cornlights, goose, curved, corn, fixtures, lighting, LED, t8, t9, lights, outdoor,  industrial, ebay, amazon" />
-      <title>My Title</title>
-    <style>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="HTM Lighting Solutions is a Global Manufacturer of Premium & Dependable Cutting Edge LED Lighting Products for Residential, Commercial, and Industrial Use. Since 2008, we have focused on being a customer-centric company that positions itself as a value added and trusted partner in innovative lighting design systems and technology. HTM Lighting Solutions provide Customer Support 24/7 As we understand how valuable time is to our customers.">
+        <meta name="author" content="Adrian R Townsend">
+        <meta name="keywords" content="htm, lighting, htm-lighting, solutions, htmlgihtingsolutions, gooseneck, curvedarm, cornlights, goose, curved, corn, fixtures, lighting, LED, t8, t9, lights, outdoor,  industrial, ebay, amazon" />
+        <title>My Title</title>
+      <style>
 
-      * {
-          box-sizing: border-box;
-          font-family: 'Arial';
-      }
-
-      body {
-          margin: 0;
-          padding: 0;
-      }
-
-      .row::after {
-          content: "";
-          clear: both;
-          display: table;
-      }
-
-      .containerRounded {
-        width: 90%; 
-        height: 95%;
-        border-radius: 20px; 
-        box-shadow: 10px 10px 30px black; 
-        margin: 30px auto;
-        padding: 0px;
-      }
-
-      .titleImage {
-        margin: auto;
-        height: 70%;
-      }
-
-      .titleName {
-        margin: auto;
-        text-align: center;
-        height: 100%;
-        padding-top: 10px;
+        * {
+            box-sizing: border-box;
+            font-family: 'Arial';
         }
 
-      .contentContainer {
-        width: 100%;
-        margin: 0px auto;
-        margin-top: 50px;
-        padding: 30px;
-      }
-
-      .phoneContentContainer {
-          padding: 0px 20px;
+        body {
+            margin: 0;
+            padding: 0;
         }
 
-      .Logo {
-        max-width: 100%; 
-        height: auto;
-      }
-
-      .bannerRow {
-        width: 100%;
-      }
-
-      .bannerImg {
-        max-width: 100%;
-        height: auto;
-        margin: auto;
-        display: block;
-      }
-
-      .bannerImgMd {
-        max-width: 70%;
-        height: auto;
-        margin: auto;
-        display: block;
-      }
-
-      .bannerImgSm {
-        max-width: 40%;
-        height: auto;
-        margin: auto;
-        display: block;
-      }
-
-      .menuBlock {
-        margin: 15px auto;
-        padding: 15px 30px;
-        border: solid 3px #ff8200;
-        box-shadow: 3px 9px 10px #999999;
-        border-radius: 10px;
-      }     
-
-      .introBlock {
-        width: 100%;
-      }
-
-      .blockHead {
-        color:#ff8200; 
-        font-weight: bold;
-      }
-
-      ul.featureList {
-        list-style-image: url('https://htm-lighting.github.io/pictures/correct-symbol-small.png');
-      }
-
-      .doubleBlock {
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .doubleImg {
-        width: 30%;
-        height: auto;
-        padding-top: 20px;
-      }
-
-      .bannerDoubleImg {
-        width: 100%;
-        height: auto;
-        margin: auto;
-      }
-
-      .bannerTripleImg {
-        width: 100%;
-        height: auto;
-        margin: auto;
-      }
-
-      .pdfBlock {
-        text-align: center;
-      }
-
-      .documentTitle {
-        text-align: center;
-      }
-
-      .pdfImg {
-        width: 60%;
-        height: auto;
-      }
-      
-      .galleryBlock {
-        width: 100%;
-      }
-
-      .imgBlock {
-        line-height: 250px;
-        position: relative;
-      }
-
-      .imgBlock img {
-        vertical-align: middle;
-      }
-
-      img.galleryImg {
-        width: 100%;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-      }
-
-      .aboutBlock {
-        width: 100%;
-      }
-
-      .footerBlock {
-        width: 100%;
-        background-color: #ff8200;
-        border-radius: 0px 0px 10px 10px;
-        text-align: center;
-        padding: 30px 20px;
-        margin-top: 30px;
-      }
-
-      .homeLink {
-        font-size: 200%;
-      }
-
-      .linkAddress:active, .linkAddress:link, .linkAddress:visited {
-        color: blue;
-        text-decoration: none;
-      }
-
-      .linkAddress:hover {
-        text-decoration: underline;
-        font-weight: bold;
-      }
-
-      .linkTitle {
-        color:white; 
-        font-weight: 900; 
-        text-shadow:1px 2px 1px black;
-      }
-
-      /* For mobile phones: */
-      [class*="col-"] {
-          width: 100%;
-      }
-      @media only screen and (min-width: 600px) {
-        [class*="col-"] {
-            float: left;
-            padding: 15px;
-        }
-
-        /* For tablets: */
-        .col-m-1 {width: 8.33%;}
-        .col-m-2 {width: 16.66%;}
-        .col-m-3 {width: 25%;}
-        .col-m-4 {width: 33.33%;}
-        .col-m-5 {width: 41.66%;}
-        .col-m-6 {width: 50%;}
-        .col-m-7 {width: 58.33%;}
-        .col-m-8 {width: 66.66%;}
-        .col-m-9 {width: 75%;}
-        .col-m-10 {width: 83.33%;}
-        .col-m-11 {width: 91.66%;}
-        .col-m-12 {width: 100%;}
-      }
-
-      @media only screen and (min-width: 768px) {  
-        [class*="col-"] {
-            float: left;
-            padding: 15px;
-        }
-
-        .col-1 {width: 8.33%;}
-        .col-2 {width: 16.66%;}
-        .col-3 {width: 25%;}
-        .col-4 {width: 33.33%;}
-        .col-5 {width: 41.66%;}
-        .col-6 {width: 50%;}
-        .col-7 {width: 58.33%;}
-        .col-8 {width: 66.66%;}
-        .col-9 {width: 75%;}
-        .col-10 {width: 83.33%;}
-        .col-11 {width: 91.66%;}
-        .col-12 {width: 100%;}
-      }
-
-      @media only screen and (min-width: 768px) {
-
-        .contentContainer {
-        width: 100%;
-        margin: 0px auto;
-        margin-top: 50px;
-        padding: 0px 30px;
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
         }
 
         .containerRounded {
@@ -261,150 +35,376 @@
           padding: 0px;
         }
 
-        .phoneContentContainer {
-          padding: 0px;
+        .titleImage {
+          margin: auto;
+          height: 70%;
         }
 
-        .doubleRow {
-          display: -webkit-flex;
-          display: flex;
-          -webkit-align-items: stretch;
-          align-items: stretch;
-          -webkit-justify-content: space-between;
-          justify-content: space-between;
+        .titleName {
+          margin: auto;
+          text-align: center;
+          height: 100%;
+          padding-top: 10px;
+          }
+
+        .contentContainer {
           width: 100%;
+          margin: 0px auto;
+          margin-top: 50px;
+          padding: 30px;
+        }
+
+        .phoneContentContainer {
+            padding: 0px 20px;
+          }
+
+        .Logo {
+          max-width: 100%; 
           height: auto;
         }
-      }
 
-      .featuresBlock {
-        padding-top: 0px;
-      }
+        .bannerRow {
+          width: 100%;
+        }
 
-    </style>
-  </head>
+        .bannerImg {
+          max-width: 100%;
+          height: auto;
+          margin: auto;
+          display: block;
+        }
 
-  <body>
+        .bannerImgMd {
+          max-width: 70%;
+          height: auto;
+          margin: auto;
+          display: block;
+        }
 
-    <div class="containerRounded">
+        .bannerImgSm {
+          max-width: 40%;
+          height: auto;
+          margin: auto;
+          display: block;
+        }
 
-      <div class="row titleBlock">
-        <div class="col-2 titleImage"><a href="https://www.htm-lighting.com/" target="_blank"><img src="https://htm-lighting.github.io/pictures/Edit-HTM-2017-logo.gif" alt="htm-lighting" class="Logo"></a></div>
-        <div class="col-8 titleName"><h2>LED Shoe Box - 5,000K - Adjustable Split Fit Mount - 100/277VAC - Surge Protector Included - Black Finish</h2></div>
-        <div class="col-2"></div>
-      </div>
+        .menuBlock {
+          margin: 15px auto;
+          padding: 15px 30px;
+          border: solid 3px #ff8200;
+          box-shadow: 3px 9px 10px #999999;
+          border-radius: 10px;
+        }     
 
-      <div class="row bannerRow">
-        <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/716mDsjlQsL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/716mDsjlQsL._SL1200_.jpg" alt="ShoeBox 150W" class="bannerImgMd" style=""></a></div>
-        <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/61C69up9DmL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61C69up9DmL._SL1200_.jpg" alt="Shoebox 240W" class="bannerImgMd" style=""></a></div>
-        <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/61dj-0NdcAL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61dj-0NdcAL._SL1200_.jpg" alt="ShoeBox 300W" class="bannerImgMd" style=""></a></div>
-      </div>
+        .introBlock {
+          width: 100%;
+        }
 
+        .blockHead {
+          color:#ff8200; 
+          font-weight: bold;
+        }
 
-      <div class="contentContainer">
+        ul.featureList {
+          list-style-image: url('https://htm-lighting.github.io/pictures/correct-symbol-small.png');
+        }
 
-          <div class="row">
-            <div class="introBlock menuBlock">
-              <a href="http://i.ebayimg.com/images/g/WNUAAOSw-29ZWqgo/s-l1600.jpg" target="_blank"><img src="http://i.ebayimg.com/images/g/WNUAAOSw-29ZWqgo/s-l1600.jpg" alt="Bulb Stats" style="width: 28%; float: right; padding: 30px"></a>
-              <h2 class="blockHead">Product Description</h2>
-              <p><strong>HTM Lighting Solutions</strong> is proud to introduce you to our <strong>NEW AFFORDABLE</strong> LED Shoe Box Pole Light Replacement!</p>
-              <ul>
-                <li class="featureCheck">Instant Start to Full Brightness With Type III Distribution</li>
-                <li class="featureCheck">Split Fit Mount</li>
-                <li class="featureCheck">Surge Protector Included (No Photocell)</li>
-                <li class="featureCheck">Meanwell LED Driver For Highest Efficiency & Reliability</li>
-                <li class="featureCheck">CRI > 83 Shows True Color Rendering</li>
-                <li class="featureCheck">Universal Voltage: 100-277VAC</li>
-                <li class="featureCheck">Over 50,000+ Hours Average Rated Life</li>
-                <li class="featureCheck">5000K (Cool White) Correlated Color Temperature (CCT)</li>
-                <li class="featureCheck">Outdoor Pole/Arm-Mounted Area And Roadway Luminaire</li>
-                <li class="featureCheck">Non-Dimmable</li>
-                <li class="featureCheck">5-Year Unlimited Warranty</li>
-                <li class="featureCheck"><strong>DLC 4.2 Qualified For Federal & State Rebates</strong></li>
-                <li class="featureCheck">UL Listed [E488975] To Avoid Electrical Shock, And Fire Hazard, As Customer Safety Comes First</li>
-              </ul>
-            </div>
-          </div>
-           
-        <div class="row">
-          <div class="doubleRow">
-            <div class="col-6 doubleBlock menuBlock col-m-12 featuresBlock" style="margin-right: 30px">
-              <h2 class="blockHead">Features</h2>
-              <ul class="featureList">
-                <li class="featureCheck"><strong>STUNNING LUMEN OUTPUT –</strong> Unimaginable lumen output ranging from 19,355lm to 39,500lm, with efficiency exceeding 130lm/W! Start Cutting Cost on your Energy Bill by as much as 75% when replacing inefficient metal halide shoe box with HTM Lighting Solutions LED Street Lights!</li>
-                <li class="featureCheck"><strong>SPLIT FIT MOUNT –</strong> HTM Lighting Solutions Split Fit Mount Will fit any standard pole up to 2.60in Diameter. It has never been easier to retrofit Metal Halide & HPS Pole Light Fixtures, Such As Cobra Heads!</li>
-                <li class="featureCheck"><strong>UL LISTED & DLC 4.2 QUALIFIED -</strong> Safe & Reliable, our LED Shoe Boxes are UL Listed [E.488975], and qualified as Outdoor Pole/Arm-Mounted Area And Roadway Luminaires For Nationwide Federal & State Rebates!</li>
-                <li class="featureCheck"><strong>SURGE PROTECTOR INCLUDED –</strong> Because of Hazardous Outdoor Locations, and Potential Lightning Strikes, our LED Shoe Boxes come with an EXTRA Layer of Security!</li>
-                <li class="featureCheck"><strong>5-YEAR WARRANTY –</strong> Feel the peace of mind when purchasing our LED Shoebox as if anything should happen, we’ve got you covered!</li>
-              </ul>
-            </div>
-            <div class="col-6 doubleBlock menuBlock col-m-12 featuresBlock">
-              <h2 class="blockHead">Product Information</h2>
-              <div class="row">
-                <div class="col-6 col-m-6 pdfBlock">
-                  <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S150WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>150W Data Sheet</a>
-                </div>
-                <div class="col-6 col-m-6 pdfBlock">
-                  <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S240WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>240W Data Sheet</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6 col-m-6 pdfBlock">
-                  <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S300WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>300W Data Sheet</a>
-                </div>
-                <div class="col-6 col-m-6 pdfBlock">
-                  <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-SXXW_Instructions.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>Instruction Guide</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        .doubleBlock {
+          margin-left: auto;
+          margin-right: auto;
+        }
 
+        .doubleImg {
+          width: 30%;
+          height: auto;
+          padding-top: 20px;
+        }
 
-           <div class="row">
-             <div class="col-4 col-m-12">
-             <a href="https://htm-lighting.github.io/pictures/split-mount-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/split-mount-shoebox-edit.jpg" alt="Split Mount" style="box-shadow: 3px 2px 10px grey;"></a>
-             </div>
-             <div class="col-4 col-m-12">
-               <a href="https://htm-lighting.github.io/pictures/type3-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/type3-shoebox-edit.jpg" alt="Type/Surge Protector" style="box-shadow: 3px 2px 10px grey;"></a>
-             </div>
-             <div class="col-4 col-m-12">
-               <a href="https://htm-lighting.github.io/pictures/waterproof-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/waterproof-shoebox-edit.jpg" alt="Waterproof" style="box-shadow: 3px 2px 10px grey;"></a>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-6 col-m-12">
-               <a href="http://i.ebayimg.com/images/g/ReEAAOSwrfVZWqiD/s-l1600.jpg" target="_blank"><img class="bannerDoubleImg" src="http://i.ebayimg.com/images/g/ReEAAOSwrfVZWqiD/s-l1600.jpg" alt="Parking Lot" style="box-shadow: 3px 2px 10px grey;"></a>
-             </div>
-             <div class="col-6 col-m-12">
-               <a href="http://i.ebayimg.com/images/g/0O4AAOSwvjdZWqiH/s-l1600.jpg" target="_blank"><img class="bannerDoubleImg" src="http://i.ebayimg.com/images/g/0O4AAOSwvjdZWqiH/s-l1600.jpg" alt="Parking Lot 2" style="box-shadow: 3px 2px 10px grey;"></a>
-             </div>
-           </div>
+        .bannerDoubleImg {
+          width: 100%;
+          height: auto;
+          margin: auto;
+        }
+
+        .bannerTripleImg {
+          width: 100%;
+          height: auto;
+          margin: auto;
+        }
+
+        .pdfBlock {
+          text-align: center;
+        }
+
+        .documentTitle {
+          text-align: center;
+        }
+
+        .pdfImg {
+          width: 60%;
+          height: auto;
+        }
         
+        .galleryBlock {
+          width: 100%;
+        }
 
+        .imgBlock {
+          line-height: 250px;
+          position: relative;
+        }
+
+        .imgBlock img {
+          vertical-align: middle;
+        }
+
+        img.galleryImg {
+          width: 100%;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+        }
+
+        .aboutBlock {
+          width: 100%;
+        }
+
+        .footerBlock {
+          width: 100%;
+          background-color: #ff8200;
+          border-radius: 0px 0px 10px 10px;
+          text-align: center;
+          padding: 30px 20px;
+          margin-top: 30px;
+        }
+
+        .homeLink {
+          font-size: 200%;
+        }
+
+        .linkAddress:active, .linkAddress:link, .linkAddress:visited {
+          color: blue;
+          text-decoration: none;
+        }
+
+        .linkAddress:hover {
+          text-decoration: underline;
+          font-weight: bold;
+        }
+
+        .linkTitle {
+          color:white; 
+          font-weight: 900; 
+          text-shadow:1px 2px 1px black;
+        }
+
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+        @media only screen and (min-width: 600px) {
+          [class*="col-"] {
+              float: left;
+              padding: 15px;
+          }
+
+          /* For tablets: */
+          .col-m-1 {width: 8.33%;}
+          .col-m-2 {width: 16.66%;}
+          .col-m-3 {width: 25%;}
+          .col-m-4 {width: 33.33%;}
+          .col-m-5 {width: 41.66%;}
+          .col-m-6 {width: 50%;}
+          .col-m-7 {width: 58.33%;}
+          .col-m-8 {width: 66.66%;}
+          .col-m-9 {width: 75%;}
+          .col-m-10 {width: 83.33%;}
+          .col-m-11 {width: 91.66%;}
+          .col-m-12 {width: 100%;}
+        }
+
+        @media only screen and (min-width: 768px) {  
+          [class*="col-"] {
+              float: left;
+              padding: 15px;
+          }
+
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }
+
+        @media only screen and (min-width: 768px) {
+
+          .contentContainer {
+          width: 100%;
+          margin: 0px auto;
+          margin-top: 50px;
+          padding: 0px 30px;
+          }
+
+          .containerRounded {
+            width: 90%; 
+            height: 95%;
+            border-radius: 20px; 
+            box-shadow: 10px 10px 30px black; 
+            margin: 30px auto;
+            padding: 0px;
+          }
+
+          .phoneContentContainer {
+            padding: 0px;
+          }
+
+          .doubleRow {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: stretch;
+            align-items: stretch;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .featuresBlock {
+          padding-top: 0px;
+        }
+
+      </style>
+    </head>
+
+    <body>
+
+      <div class="containerRounded">
+
+        <div class="row titleBlock">
+          <div class="col-2 titleImage"><a href="https://www.htm-lighting.com/" target="_blank"><img src="https://htm-lighting.github.io/pictures/Edit-HTM-2017-logo.gif" alt="htm-lighting" class="Logo"></a></div>
+          <div class="col-8 titleName"><h2>LED Shoe Box - 5,000K - Adjustable Split Fit Mount - 100/277VAC - Surge Protector Included - Black Finish</h2></div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row bannerRow">
+          <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/716mDsjlQsL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/716mDsjlQsL._SL1200_.jpg" alt="ShoeBox 150W" class="bannerImgMd" style=""></a></div>
+          <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/61C69up9DmL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61C69up9DmL._SL1200_.jpg" alt="Shoebox 240W" class="bannerImgMd" style=""></a></div>
+          <div class="col-4 col-m12"><a href="https://images-na.ssl-images-amazon.com/images/I/61dj-0NdcAL._SL1200_.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61dj-0NdcAL._SL1200_.jpg" alt="ShoeBox 300W" class="bannerImgMd" style=""></a></div>
+        </div>
+
+
+        <div class="contentContainer">
+
+            <div class="row">
+              <div class="introBlock menuBlock" style="padding: 0px 20px">
+                <a href="https://github.com/htm-lighting/pictures/blob/master/type3-300W-ShoeBox-comp.jpg?raw=true" target="_blank"><img src="https://github.com/htm-lighting/pictures/blob/master/type3-300W-ShoeBox-comp.jpg?raw=true" alt="Bulb Stats" style="width: 30%; float: right; padding: 30px 30px 0px 30px"></a>
+                <h2 class="blockHead">Product Description</h2>
+                <p><strong>HTM Lighting Solutions</strong> is proud to introduce you to our <strong>NEW AFFORDABLE</strong> LED Shoe Box Pole Light Replacement!</p>
+                <ul>
+                  <li class="featureCheck">Instant Start to Full Brightness With Type III Distribution</li>
+                  <li class="featureCheck">Split Fit Mount</li>
+                  <li class="featureCheck">Surge Protector Included (No Photocell)</li>
+                  <li class="featureCheck">Meanwell LED Driver For Highest Efficiency & Reliability</li>
+                  <li class="featureCheck">CRI > 83 Shows True Color Rendering</li>
+                  <li class="featureCheck">Universal Voltage: 100-277VAC</li>
+                  <li class="featureCheck">Over 50,000+ Hours Average Rated Life</li>
+                  <li class="featureCheck">5000K (Cool White) Correlated Color Temperature (CCT)</li>
+                  <li class="featureCheck">Outdoor Pole/Arm-Mounted Area And Roadway Luminaire</li>
+                  <li class="featureCheck">Non-Dimmable</li>
+                  <li class="featureCheck">5-Year Unlimited Warranty</li>
+                  <li class="featureCheck"><strong>DLC 4.2 Qualified For Federal & State Rebates</strong></li>
+                  <li class="featureCheck">UL Listed [E488975] To Avoid Electrical Shock, And Fire Hazard, As Customer Safety Comes First</li>
+                </ul>
+              </div>
+            </div>
+             
           <div class="row">
-            <div class="aboutBlock menuBlock col-m-12 featuresBlock">
-              <h2 class="blockHead">About HTM Lighting Solutions:</h2>
-              <p class="aboutPara">HTM Lighting Solutions is a Global Manufacturer of Premium & Dependable Cutting Edge LED Lighting Products for Residential, Commercial, and Industrial Use. Since 2008, we have focused on being a customer-centric company that positions itself as a value added and trusted partner in innovative lighting design systems and technology. HTM Lighting Solutions provide Customer Support 24/7 As we understand how valuable time is to our customers.</p>
+            <div class="doubleRow">
+              <div class="col-6 doubleBlock menuBlock col-m-12 featuresBlock" style="margin-right: 30px; padding: 0px 20px">
+                <h2 class="blockHead">Features</h2>
+                <ul class="featureList">
+                  <li class="featureCheck"><strong>STUNNING LUMEN OUTPUT –</strong> Unimaginable lumen output ranging from 19,355lm to 39,500lm, with efficiency exceeding 130lm/W! Start Cutting Cost on your Energy Bill by as much as 75% when replacing inefficient metal halide shoe box with HTM Lighting Solutions LED Street Lights!</li>
+                  <li class="featureCheck"><strong>SPLIT FIT MOUNT –</strong> HTM Lighting Solutions Split Fit Mount Will fit any standard pole up to 2.60in Diameter. It has never been easier to retrofit Metal Halide & HPS Pole Light Fixtures, Such As Cobra Heads!</li>
+                  <li class="featureCheck"><strong>UL LISTED & DLC 4.2 QUALIFIED -</strong> Safe & Reliable, our LED Shoe Boxes are UL Listed [E.488975], and qualified as Outdoor Pole/Arm-Mounted Area And Roadway Luminaires For Nationwide Federal & State Rebates!</li>
+                  <li class="featureCheck"><strong>SURGE PROTECTOR INCLUDED –</strong> Because of Hazardous Outdoor Locations, and Potential Lightning Strikes, our LED Shoe Boxes come with an EXTRA Layer of Security!</li>
+                  <li class="featureCheck"><strong>5-YEAR WARRANTY –</strong> Feel the peace of mind when purchasing our LED Shoebox as if anything should happen, we’ve got you covered!</li>
+                </ul>
+              </div>
+              <div class="col-6 doubleBlock menuBlock col-m-12 featuresBlock">
+                <h2 class="blockHead">Product Information</h2>
+                <div class="row">
+                  <div class="col-6 col-m-6 pdfBlock">
+                    <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S150WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>150W Data Sheet</a>
+                  </div>
+                  <div class="col-6 col-m-6 pdfBlock">
+                    <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S240WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>240W Data Sheet</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 col-m-6 pdfBlock">
+                    <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-S300WXYZ.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>300W Data Sheet</a>
+                  </div>
+                  <div class="col-6 col-m-6 pdfBlock">
+                    <a href="https://www.htm-lighting.com/media/custom/datasheet/HTM-SXXW_Instructions.pdf" class="documentTitle" target="_blank"><img src="http://iconbug.com/data/5b/507/52ff0e80b07d28b590bbc4b30befde52.png" alt="Installation Guide" class="pdfImg"><br>Instruction Guide</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-      </div>  
 
-      <div class="row">
-        <div class="footerBlock">
-          <div class="homeLink">
-            <span class="linkTitle">VISIT OUR WEBSITE!  </span><a href="https://www.htm-lighting.com/" target="_blank" class="linkAddress"><br>https://www.htm-lighting.com/</a>
-          </div>
-          <div class="footerInfo">
-            <ul>
-            <li style="display: inline-block">6420 Benjamin Rd, Suite 3, Tampa, FL 33634 | </li>
-            <li style="display: inline-block">Phone: +1 (813) 649-8899 | </li>
-            <li style="display: inline-block">Fax: +1 (813) 425-9007 | </li>
-            <li style="display: inline-block">&copy; 2008-2017 HTM Lighting Solutions. All Rights Reserved</li>
-            </ul>
+
+             <div class="row">
+               <div class="col-4 col-m-12">
+               <a href="https://htm-lighting.github.io/pictures/split-mount-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/split-mount-shoebox-edit.jpg" alt="Split Mount" style="box-shadow: 3px 2px 10px grey;"></a>
+               </div>
+               <div class="col-4 col-m-12">
+                 <a href="https://htm-lighting.github.io/pictures/type3-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/type3-shoebox-edit.jpg" alt="Type/Surge Protector" style="box-shadow: 3px 2px 10px grey;"></a>
+               </div>
+               <div class="col-4 col-m-12">
+                 <a href="https://htm-lighting.github.io/pictures/waterproof-shoebox-2000.jpg" target="_blank"><img class="bannerTripleImg" src="https://htm-lighting.github.io/pictures/waterproof-shoebox-edit.jpg" alt="Waterproof" style="box-shadow: 3px 2px 10px grey;"></a>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-6 col-m-12">
+                 <a href="http://i.ebayimg.com/images/g/ReEAAOSwrfVZWqiD/s-l1600.jpg" target="_blank"><img class="bannerDoubleImg" src="http://i.ebayimg.com/images/g/ReEAAOSwrfVZWqiD/s-l1600.jpg" alt="Parking Lot" style="box-shadow: 3px 2px 10px grey;"></a>
+               </div>
+               <div class="col-6 col-m-12">
+                 <a href="http://i.ebayimg.com/images/g/0O4AAOSwvjdZWqiH/s-l1600.jpg" target="_blank"><img class="bannerDoubleImg" src="http://i.ebayimg.com/images/g/0O4AAOSwvjdZWqiH/s-l1600.jpg" alt="Parking Lot 2" style="box-shadow: 3px 2px 10px grey;"></a>
+               </div>
+             </div>
+          
+
+            <div class="row">
+              <div class="aboutBlock menuBlock col-m-12 featuresBlock">
+                <h2 class="blockHead">About HTM Lighting Solutions:</h2>
+                <p class="aboutPara">HTM Lighting Solutions is a Global Manufacturer of Premium & Dependable Cutting Edge LED Lighting Products for Residential, Commercial, and Industrial Use. Since 2008, we have focused on being a customer-centric company that positions itself as a value added and trusted partner in innovative lighting design systems and technology. HTM Lighting Solutions provide Customer Support 24/7 As we understand how valuable time is to our customers.</p>
+              </div>
+            </div>
+        </div>  
+
+        <div class="row">
+          <div class="footerBlock">
+            <div class="homeLink">
+              <span class="linkTitle">VISIT OUR WEBSITE!  </span><a href="https://www.htm-lighting.com/" target="_blank" class="linkAddress"><br>https://www.htm-lighting.com/</a>
+            </div>
+            <div class="footerInfo">
+              <ul>
+              <li style="display: inline-block">6420 Benjamin Rd, Suite 3, Tampa, FL 33634 | </li>
+              <li style="display: inline-block">Phone: +1 (813) 649-8899 | </li>
+              <li style="display: inline-block">Fax: +1 (813) 425-9007 | </li>
+              <li style="display: inline-block">&copy; 2008-2017 HTM Lighting Solutions. All Rights Reserved</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </body>
-</html>
+    </body>
+  </html>
