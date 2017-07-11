@@ -20,6 +20,11 @@
 	margin: 30px auto;
 }
 
+.Logo {
+    max-width: 100%; 
+    height: auto;
+  }
+
 .titleImg {
 	height: 70%;
 	margin: auto;
@@ -28,8 +33,9 @@
 .titleName {
 	margin: auto;
 	text-align: center;
-	height: 100%;
-	padding-top: 10px;
+	font-size: 150%;
+	font-weight: bold;
+	padding-top: 30px;
 }
 
 .contentContainer {
@@ -50,17 +56,48 @@
 	width: 100%;
 }
 
+.menuBlock-hidden {
+	margin: auto;
+	padding: 15px 30px;
+	width: 100%;
+}
+
 .blockHead {
 	color:#ff8200; 
 	font-weight: bold;
+	font-size: 135%;
 }
 
 .doubleBlockLeft {
 	padding: 0px;
+	margin: auto;
 }
 
 .doubleBlockRight {
 	padding: 0px;
+	margin: auto;
+}
+
+.galleryBlock4x {
+	width: 33.33%;
+	margin: auto;
+	float: left;
+}
+
+.galleryBlock3x {
+	margin: auto;
+	width: 25%;
+	float: left;
+}
+
+.galleryImg4 {
+	width: 100%;
+	margin: auto;
+}
+
+.galleryImg3 {
+	width: 100%;
+	margin: auto;
 }
 
 .footerBlock {
@@ -116,6 +153,16 @@
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
+
+	.doubleBlockLeft {
+		padding: 0px;
+		margin: 0px auto;
+	}
+	
+	.doubleBlockRight {
+		padding: 0px;
+		margin: 0px auto;
+	}
 }
 
 @media only screen and (min-width: 768px) {  
@@ -137,13 +184,30 @@
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+
+	.doubleRow {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: stretch;
+      align-items: stretch;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+    }
 	
 	.doubleBlockLeft {
 		padding-left: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 0px auto;
 	}
 	
 	.doubleBlockRight {
 		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 0px auto;
 	}
 	
 }
